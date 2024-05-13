@@ -16,7 +16,7 @@ Check](https://github.com/ijapesigan/lib-2000-2009-book/actions/workflows/shellc
 ## References
 
 <div id="refs" class="references csl-bib-body hanging-indent"
-line-spacing="2">
+entry-spacing="0" line-spacing="2">
 
 <div id="ref-Casella-Berger-2002" class="csl-entry">
 
