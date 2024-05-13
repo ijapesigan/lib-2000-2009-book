@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2024-02-22
+2024-05-13
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -17,6 +17,13 @@ Check](https://github.com/ijapesigan/lib-2000-2009-book/actions/workflows/shellc
 
 <div id="refs" class="references csl-bib-body hanging-indent"
 line-spacing="2">
+
+<div id="ref-Casella-Berger-2002" class="csl-entry">
+
+Casella, G., & Berger, R. L. (2002). *Statistical inference*. Thomson
+Learning.
+
+</div>
 
 <div id="ref-Collins-Sayer-2002" class="csl-entry">
 
