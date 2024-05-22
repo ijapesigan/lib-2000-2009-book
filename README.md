@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2024-05-16
+2024-05-22
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -32,6 +32,13 @@ analysis of change: \[Based on a conference held in 1998 at the
 pennsylvania state university, a follow-up to the los angeles conference
 best methods for the analysis of change\]* (2. print). American
 Psychological Association.
+
+</div>
+
+<div id="ref-Fernandez-2002" class="csl-entry">
+
+Fernandez, E. (2002). *Anxiety, depression, and anger in pain: Research
+findings and clinical options*. Advanced Psychological Resources.
 
 </div>
 
