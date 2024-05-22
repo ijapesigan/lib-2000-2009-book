@@ -30,7 +30,7 @@ Learning.
 Collins, L. M., & Sayer, A. (Eds.). (2002). *New methods for the
 analysis of change: \[Based on a conference held in 1998 at the
 pennsylvania state university, a follow-up to the los angeles conference
-best methods for the analysis of change\]* (2. print). American
+best methods for the analysis of change\]* (2nd ed.). American
 Psychological Association.
 
 </div>
