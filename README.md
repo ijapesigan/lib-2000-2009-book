@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2024-05-22
+2024-06-04
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 <!-- badges: start -->
@@ -58,7 +58,7 @@ differential equations*. Springer New York.
 
 </div>
 
-<div id="ref-Luetkepohl-2005" class="csl-entry">
+<div id="ref-Lutkepohl-2005" class="csl-entry">
 
 Lütkepohl, H. (2005). *New introduction to multiple time series
 analysis*. Springer Berlin Heidelberg.
