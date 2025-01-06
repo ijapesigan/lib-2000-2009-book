@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2024-12-12
+2025-01-06
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -56,6 +56,14 @@ Publications, Inc. <https://doi.org/10.4135/9781412984201>
 Iacus, S. M. (2008). *Simulation and inference for stochastic
 differential equations*. Springer New York.
 <https://doi.org/10.1007/978-0-387-75839-8>
+
+</div>
+
+<div id="ref-Lahiri-2003" class="csl-entry">
+
+Lahiri, S. N. (2003). Resampling methods for dependent data. In
+*Springer Series in Statistics*. Springer New York.
+<https://doi.org/10.1007/978-1-4757-3803-2>
 
 </div>
 
