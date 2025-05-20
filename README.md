@@ -83,6 +83,15 @@ analysis* (p. 488). Erlbaum Psych Press.
 
 </div>
 
+<div id="ref-Maggs-Schulenberg-2005" class="csl-entry">
+
+Maggs, J. L., & Schulenberg, J. E. (2005). Initiation and course of
+alcohol consumption among adolescents and young adults. In *Recent
+developments in alcoholism* (pp. 29–47). Kluwer Academic
+Publishers-Plenum Publishers. <https://doi.org/10.1007/0-306-48626-1_2>
+
+</div>
+
 <div id="ref-Schulenberg-Maggs-OMalley-2003" class="csl-entry">
 
 Schulenberg, J. E., Maggs, J. L., & O, P. M. (2003). How and why the
