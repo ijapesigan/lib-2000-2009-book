@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2025-01-06
+2025-05-20
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -80,6 +80,16 @@ analysis*. Springer Berlin Heidelberg.
 MacKinnon, D. P. (2008). *Introduction to statistical mediation
 analysis* (p. 488). Erlbaum Psych Press.
 <https://doi.org/10.4324/9780203809556>
+
+</div>
+
+<div id="ref-Schulenberg-Maggs-OMalley-2003" class="csl-entry">
+
+Schulenberg, J. E., Maggs, J. L., & O, P. M. (2003). How and why the
+understanding of developmental continuity and discontinuity is
+important. In M. J. Mortimer Jeylan T.and Shanahan (Ed.), *Handbook of
+the life course* (pp. 413–436). Springer US.
+<https://doi.org/10.1007/978-0-306-48247-2_19>
 
 </div>
 
