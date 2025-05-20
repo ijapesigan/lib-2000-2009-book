@@ -94,8 +94,8 @@ Publishers-Plenum Publishers. <https://doi.org/10.1007/0-306-48626-1_2>
 
 <div id="ref-Schulenberg-Maggs-OMalley-2003" class="csl-entry">
 
-Schulenberg, J. E., Maggs, J. L., & O, P. M. (2003). How and why the
-understanding of developmental continuity and discontinuity is
+Schulenberg, J. E., Maggs, J. L., & O’Malley, P. M. (2003). How and why
+the understanding of developmental continuity and discontinuity is
 important. In M. J. Mortimer Jeylan T.and Shanahan (Ed.), *Handbook of
 the life course* (pp. 413–436). Springer US.
 <https://doi.org/10.1007/978-0-306-48247-2_19>
