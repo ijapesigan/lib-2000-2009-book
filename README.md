@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2025-05-20
+2025-06-21
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -23,6 +23,13 @@ entry-spacing="0" line-spacing="2">
 
 Casella, G., & Berger, R. L. (2002). *Statistical inference*. Thomson
 Learning.
+
+</div>
+
+<div id="ref-Chatfield-2003" class="csl-entry">
+
+Chatfield, C. (2003). *The analysis of time series: An introduction*
+(6th ed.). Chapman; Hall/CRC. <https://doi.org/10.4324/9780203491683>
 
 </div>
 
