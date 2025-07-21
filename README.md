@@ -43,6 +43,14 @@ Psychological Association.
 
 </div>
 
+<div id="ref-Feitelson-Rudolph-Schwiegelshohn-2003" class="csl-entry">
+
+Feitelson, D., Rudolph, L., & Schwiegelshohn, U. (Eds.). (2003). *Job
+scheduling strategies for parallel processing*. Springer Berlin
+Heidelberg. <https://doi.org/10.1007/10968987>
+
+</div>
+
 <div id="ref-Fernandez-2002" class="csl-entry">
 
 Fernandez, E. (2002). *Anxiety, depression, and anger in pain: Research
