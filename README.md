@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2025-06-29
+2025-07-21
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -113,6 +113,16 @@ the life course* (pp. 413–436). Springer US.
 
 Venables, W. N., & Ripley, B. D. (2002). *Modern applied statistics with
 S*. Springer New York. <https://doi.org/10.1007/978-0-387-21706-2>
+
+</div>
+
+<div id="ref-Yoo-Jette-Grondona-2003" class="csl-entry">
+
+Yoo, A. B., Jette, M. A., & Grondona, M. (2003).
+<span class="nocase">SLURM: Simple Linux Utility for Resource
+Management</span>. In *Job scheduling strategies for parallel
+processing* (pp. 44–60). Springer Berlin Heidelberg.
+<https://doi.org/10.1007/10968987_3>
 
 </div>
 
