@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2025-10-05
+2025-11-04
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -23,6 +23,15 @@ entry-spacing="0" line-spacing="2">
 
 Casella, G., & Berger, R. L. (2002). *Statistical inference*. Thomson
 Learning.
+
+</div>
+
+<div id="ref-Chassin-Hussong-Beltran-2009" class="csl-entry">
+
+Chassin, L., Hussong, A., & Beltran, I. (2009). Adolescent substance
+use. In R. M. Lerner & L. Steinberg (Eds.), *Handbook of adolescent
+psychology: Individual bases of adolescent development* (3rd ed., pp.
+723–763). Wiley. <https://doi.org/10.1002/9780470479193.adlpsy001022>
 
 </div>
 
