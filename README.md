@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2026-10-26
+2026-10-30
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -106,6 +106,15 @@ L. Hershberger & D. S. Moskowitz, Eds.). Psychology Press.
 Iacus, S. M. (2008). *Simulation and inference for stochastic
 differential equations*. Springer New York.
 <https://doi.org/10.1007/978-0-387-75839-8>
+
+</div>
+
+<div id="ref-Kenny-Zautra-2001" class="csl-entry">
+
+Kenny, D. A., & Zautra, A. (2001). Trait-state models for longitudinal
+data. In L. M. Collins & A. G. Sayer (Eds.), *New methods for the
+analysis of change* (pp. 243–263). American Psychological Association.
+<https://doi.org/10.1037/10409-008>
 
 </div>
 

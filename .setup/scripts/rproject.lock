@@ -1,15 +1,15 @@
 # Written by rProject::Lock() at make auto. Do not edit.
 # make project restores it (locally and in GitHub Actions);
 # make upgrade moves it forward at the next make auto.
-rproject_sha <- "9600e92048637aa48f0c429463bb4abc240787f7"
+rproject_sha <- "ffb304bdce868ed989a262545e9cb0a7d3cd8a51"
 rproject_version <- "0.0.58"
 # the image: CI runs `image` (a digest), or `image_name`:latest
 # when it has no digest; packages the image lacks come from the
 # Posit Package Manager snapshot of `snapshot`
-image <- "docker.io/ijapesigan/docs@sha256:d8cc767bdb8dbfa35459bd481b034e29d012000b4a8df491e4722483b4f70239"
+image <- "docker.io/ijapesigan/docs@sha256:7fa1a98bddf7e6a112e4f426b5ef4e30391fe191586c5342ee6d9afb77d6bec7"
 image_name <- "docker.io/ijapesigan/docs"
-snapshot <- "2026-10-25"
+snapshot <- "2026-10-29"
 r_version <- "4.6.1"
 # packages the project adds (project.R): version or commit
 extra_cran <- c()
-extra_github <- c("ijapesigan/rProject" = "9600e92048637aa48f0c429463bb4abc240787f7")
+extra_github <- c("ijapesigan/rProject" = "ffb304bdce868ed989a262545e9cb0a7d3cd8a51")
