@@ -1,7 +1,7 @@
 lib-2000-2009-book
 ================
 Ivan Jacob Agaloos Pesigan
-2026-11-01
+2026-11-02
 
 <!-- README.md is generated from .setup/readme/README.Rmd. Please edit that file -->
 
@@ -49,6 +49,14 @@ psychology: Individual bases of adolescent development* (3rd ed., pp.
 
 Chatfield, C. (2003). *The analysis of time series: An introduction*
 (6th ed.). Chapman; Hall/CRC. <https://doi.org/10.4324/9780203491683>
+
+</div>
+
+<div id="ref-Cohen-Cohen-West-etal-2003" class="csl-entry">
+
+Cohen, J., Cohen, P., West, S. G., & Aiken, L. S. (2003). *Applied
+multiple regression/correlation analysis for the behavioral sciences*
+(3rd ed.). Routledge. <https://doi.org/10.4324/9780203774441>
 
 </div>
 
