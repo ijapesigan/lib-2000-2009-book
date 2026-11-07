@@ -1,4 +1,4 @@
-.PHONY: all build clean cleanall cleanpkg cleanproj cleanpush cleantinytex bib libcheck libformat bibrproject clone coverage data dependencies readme docs dotfiles aiglobal secretscan verify spec log sizecheck public ai manifest install latex lint local localforce pdf pkg pkgdown project push quarto style tinytex tinytexforce vignettes template tree upgrade
+.PHONY: all release build clean cleanall cleanpkg cleanproj cleanpush cleantinytex bib libcheck libformat bibrproject clone coverage data dependencies readme docs dotfiles aiglobal secretscan verify spec log sizecheck public ai manifest install latex lint local localforce pdf pkg pkgdown project push quarto style tinytex tinytexforce vignettes template tree upgrade
 
 push: build docs latex coverage cleanpush
 
@@ -91,6 +91,11 @@ lint: style
 	@Rscript -e "rProject::Lint(\"${PWD}\")"
 	@Rscript -e "if (exists('SizeCheck', envir = asNamespace('rProject'))) rProject::SizeCheck(\"${PWD}\")"
 
+# the agents' command line tools, on the host (no R, no Apptainer): installs
+# the missing ones (in ~/work/tools, linked, where ~/work exists); UPDATE=TRUE updates them
+agents:
+	@bash .setup/scripts/agents.sh $(if $(UPDATE),--update,)
+
 sizecheck:
 	@echo "\n\nChecking Overleaf limits...\n\n"
 	@Rscript -e "rProject::SizeCheck(\"${PWD}\", error = TRUE)"
@@ -104,7 +109,7 @@ secretscan:
 	@echo "\n\nScanning for secrets...\n\n"
 	@Rscript -e "rProject::SecretScan(\"${PWD}\")"
 
-# apptainer exec <sif> make verify RECORD=TRUE
+# apptainer exec -B ~/work:$(readlink -f ~/work) <sif> make verify RECORD=TRUE (on Roar, add -B /scratch/ibp5092)
 # pulls the private repository into .verify (where SSH works in the
 # container), then checks the push; on Roar, first run on the host:
 # bash .setup/scripts/verify.sh
@@ -149,7 +154,7 @@ vignettes:
 	@echo "\n\nPrecompiling vignettes...\n\n"
 	@Rscript -e "rProject::VignettesPrecompile(\"${PWD}\")"
 
-build: project pkg dotfiles tinytex lint data dependencies bib vignettes
+build: project pkg tinytex lint data dependencies bib vignettes
 	@echo "\n\nBuilding package...\n\n"
 	@Rscript -e "rProject::Build(\"${PWD}\")"
 
@@ -183,7 +188,7 @@ docs: readme
 	@echo "\n\nBuilding CITATION.cff...\n\n"
 	@Rscript -e "rProject::CFF(\"${PWD}\")"
 
-all: build docs latex pkgdown quarto coverage
+all: lint build docs latex pkgdown quarto coverage
 
 cleanall: clean cleanpush cleanpkg cleantinytex
 
@@ -203,6 +208,11 @@ localforce: project dotfiles
 
 clone:
 	@bash .setup/scripts/clone.sh
+
+# make all, the secret scan, then make auto (commit, push, tag); it stops at the
+# first failure. Then look at the runs: gh run list -R <public repository>
+release: all secretscan auto
+	@echo "\n\nReleased. Check that Make Project started on the pushed commit.\n\n"
 
 auto: clone
 	@Rscript -e "if (exists('Public', envir = asNamespace('rProject'))) rProject::Public(\"${PWD}\") else message('\n\nWARNING: rProject is older than 0.0.33; the public export was NOT checked. Run make project.\n\n')"
